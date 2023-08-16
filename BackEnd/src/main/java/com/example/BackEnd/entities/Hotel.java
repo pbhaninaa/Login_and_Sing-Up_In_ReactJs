@@ -16,13 +16,18 @@ public class Hotel {
     @Column(name = "HotelId")
     private Long id;
     private String name;
-    @Lob
-    private byte[] hotelView;
-    @Lob
-    private byte[] inside1;
-    @Lob
-    private byte[] inside2;
+    private String hotelView;
+    private int stars;
     private boolean parking;
     private boolean wifi;
+    private boolean pool;
+    private String inside1;
+    private String type;
+    private String price;
+    private String inside2;
+    private String roomType;
+    private String roomPrice;
+
+    
 
 }
